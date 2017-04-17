@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Emex</string>
+    <string name="forgetPass">Dont have an account ? Sign up</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="tac">I accept <b> <u>Terms of Service</u> </b>and <b><u>Privacy Policy</u></b> </string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="pass">Password</string>
+    <string name="email">Email address</string>
+    <string name="contact">Contact Name</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="networksview">Networks View</string>
+    <string name="payment">Payment</string>
+    <string name="jobhistory">Job History</string>
+    <string name="econt">Emergency Contact</string>
+    <string name="help">Help</string>
+    <string name="logout">Log Out</string>
+    <string name="support">Support via Call/Email</string>
+    <string name="dat">14 June, 2016 04:23 PM</string>
+    <string name="dist">5.6 km</string>
+    <string name="dname">Driver name: Suresh kumar</string>
+    <string name="plocation">3846 W 38 Rd, Shiv Srishti Marg
+Mumbai</string>
+    <string name="dlocation">Silver Oks Hospital, Laxmi Nagar,
+Mumbai</string>
+    <string name="time">Ride Time: 20 min</string>
+    <string name="tamount">Total Payable Amount</string>
+    <string name="amount">₹ 1832.00</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

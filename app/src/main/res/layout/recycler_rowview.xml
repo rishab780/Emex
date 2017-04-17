@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/marginbottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+       >
+
+        <TextView
+            style="@style/tvblue"
+            android:layout_weight=".2"
+            android:id="@+id/tvDateAndTime"
+            android:text="@string/dat" />
+
+        <TextView
+            style="@style/tvblue"
+            android:id="@+id/tvDistanceKm"
+            android:layout_weight=".8"
+            android:text="@string/dist"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey" />
+
+<TextView
+    android:id="@+id/tvDriverName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/dname"
+    android:textColor="@color/tblack"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvPickupAddress"
+        android:layout_height="wrap_content"
+        android:text="@string/plocation"
+        android:drawableLeft="@drawable/gbutton"
+        android:textColor="@color/lcolor"
+        android:drawablePadding="@dimen/defaultDrawablePadding"
+        android:paddingRight="80dp"
+        />
+    <TextView
+        android:id="@+id/tvDestinationAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plocation"
+        android:textColor="@color/lcolor"
+        android:drawableLeft="@drawable/rbutton"
+        android:drawablePadding="@dimen/defaultDrawablePadding"
+        android:paddingRight="80dp"
+        />
+    <TextView
+        android:id="@+id/tvTotalRideTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tblack"
+        android:text="@string/time"
+        />
+    <View
+        android:id="@+id/vLineHorizontalBelow"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tvTotalAmountTitle"
+            style="@style/tvblue"
+            android:layout_weight=".3"
+            android:text="@string/tamount" />
+
+        <TextView
+            android:id="@+id/tvTotalAmount"
+            style="@style/tvblue"
+            android:layout_weight=".7"
+            android:text="@string/amount" />
+    </LinearLayout>
+
+
+</LinearLayout>

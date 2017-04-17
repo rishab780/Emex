@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_signup"
+        style="@style/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/marginbottom"
+        android:background="@color/colorPrimary"
+       android:text="@string/signup"
+        android:textColor="@color/white"
+        />
+    <CheckBox
+       android:id="@+id/tos"
+        style="@style/wrapcontent"
+        android:layout_above="@id/btn_signup"
+        android:layout_marginBottom="@dimen/marginbottom"
+        android:button="@drawable/checkbox"
+        android:paddingLeft="@dimen/defaultDrawablePadding"
+        android:text="@string/tac"
+        android:textSize="@dimen/ts_small"
+        android:layout_marginLeft="@dimen/etMargin"
+
+        />
+    <EditText
+        android:id="@+id/et_cpassword"
+        style="@style/et_style"
+        android:layout_above="@id/tos"
+        android:drawableLeft="@drawable/icon_password"
+        android:hint="@string/cpassword"/>
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/et_style"
+        android:layout_above="@id/et_cpassword"
+        android:drawableLeft="@drawable/icon_password"
+        android:hint="@string/pass"/>
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/et_style"
+        android:layout_above="@id/et_password"
+        android:drawableLeft="@drawable/icon_email"
+        android:hint="@string/email"/>
+    <EditText
+        android:id="@+id/et_contact"
+        style="@style/et_style"
+        android:layout_above="@id/et_email"
+        android:drawableLeft="@drawable/icon_contact"
+        android:hint="@string/contact"/>
+    <LinearLayout
+        android:id="@+id/ll_name"
+        style="@style/wrapcontent"
+        android:layout_above="@id/et_contact"
+        android:layout_marginBottom="@dimen/marginbottom">
+        <EditText
+            android:id="@+id/et_fname"
+           android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_contact"
+            android:drawablePadding="@dimen/defaultDrawablePadding"
+            android:layout_marginLeft="@dimen/etMargin"
+            android:hint="@string/fname"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/defaultDrawablePadding"
+            android:layout_marginTop="@dimen/defaultDrawablePadding"
+            android:layout_weight=".01"
+
+            android:background="@color/grey"
+            ></View>
+        <EditText
+            android:id="@+id/et_lname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_contact"
+            android:drawablePadding="@dimen/defaultDrawablePadding"
+            android:layout_marginRight="@dimen/etMargin"
+            android:hint="@string/lname"/>
+    </LinearLayout>
+    <ImageView
+        style="@style/wrapcontent"
+        android:layout_above="@+id/ll_name"
+        android:layout_marginBottom="@dimen/etMargin"
+        android:layout_marginTop="@dimen/etMargin"
+        android:src="@drawable/user_placeholder"/>
+
+
+</RelativeLayout>

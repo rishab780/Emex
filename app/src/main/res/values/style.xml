@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Login" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@drawable/background</item>
+
+    </style>
+
+
+    <style name="button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/etMargin</item>
+        <item name="android:layout_marginRight">@dimen/etMargin</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/ts_medium</item>
+        <!--<item name="android:fontFamily" tools:targetApi="jelly_bean">AvenirNext-Medium</item>-->
+        <!--<item name="android:textAllCaps">false</item>-->
+
+    </style>
+    <style name="buttonWithoutm">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/ts_medium</item>
+        <!--<item name="android:fontFamily" tools:targetApi="jelly_bean">AvenirNext-Medium</item>-->
+        <!--<item name="android:textAllCaps">false</item>-->
+
+    </style>
+    <style name="wrapcontent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="et_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/etMargin</item>
+        <item name="android:layout_marginRight">@dimen/etMargin</item>
+        <item name="android:layout_marginBottom">@dimen/marginbottom</item>
+        <item name="android:textColor">@color/etcolor</item>
+        <item name="android:drawablePadding">@dimen/defaultDrawablePadding</item>
+
+    </style>
+
+    <style name="drawerItem">
+        <item name="android:layout_marginTop">@dimen/drawermargin</item>
+        <item name="android:layout_marginBottom">@dimen/drawermargin</item>
+        <item name="android:textColor">@color/tblack</item>
+        <item name="android:textSize">@dimen/ts_medium</item>
+        <item name="android:drawablePadding">@dimen/drawermargin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/drawermargin</item>
+
+    </style>
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+
+    </style>
+    <style name="tvblue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/ts_medium</item>
+    </style>
+
+
+
+</resources>

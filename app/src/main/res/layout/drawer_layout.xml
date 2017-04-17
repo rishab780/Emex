@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="275dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        style="@style/wrapcontent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/placeholder"
+        android:src="@drawable/placeholder" />
+
+    <TextView
+        style="@style/wrapcontent"
+        android:layout_marginTop="@dimen/defaultDrawablePadding"
+        android:text="Rishab Bansal"
+        android:textAlignment="center"
+        android:textColor="@color/tblack"
+        android:textSize="@dimen/ts_large" />
+
+    <TextView
+        style="@style/wrapcontent"
+        android:text="@string/EditProfile"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/ts_medium" />
+
+
+    <LinearLayout style="@style/wrapcontent">
+
+        <TextView
+            style="@style/drawerItem"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:drawableLeft="@drawable/icon_networks"
+            android:text="@string/networksview" />
+
+        <Switch
+            style="@style/wrapcontent"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/drawermargin"
+            android:layout_weight="1"
+            android:checked="false"
+            android:theme="@style/SCBSwitch" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/drawerItem"
+        android:drawableLeft="@drawable/icon_payment_pressed"
+        android:text="@string/payment" />
+
+    <TextView
+        style="@style/drawerItem"
+        android:drawableLeft="@drawable/icon_job_normal"
+        android:text="@string/jobhistory"
+        android:clickable="true"
+        android:id="@+id/tv_JobHistory"/>
+
+    <TextView
+        style="@style/drawerItem"
+        android:drawableLeft="@drawable/icon_emergency_normal"
+        android:text="@string/econt" />
+
+    <TextView
+        style="@style/drawerItem"
+        android:drawableLeft="@drawable/icon_help_normal"
+        android:text="@string/help" />
+
+    <TextView
+        style="@style/drawerItem"
+        android:drawableLeft="@drawable/icon_logout_normal"
+        android:text="@string/logout" />
+
+    <TextView
+        style="@style/wrapcontent"
+        android:text="@string/support"
+        android:textAlignment="center"
+        android:textColor="@color/support" />
+
+    <LinearLayout
+        style="@style/wrapcontent"
+        android:layout_marginTop="@dimen/drawermargin"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/drawermargin"
+            android:src="@drawable/icon_support_call_normal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/drawermargin"
+            android:src="@drawable/icon_support_msg_normal" />
+    </LinearLayout>
+
+
+</LinearLayout>
